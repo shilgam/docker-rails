@@ -1,4 +1,3 @@
--* Ruby version
 ## Deployment instructions
 
 1. Build the Docker image:
