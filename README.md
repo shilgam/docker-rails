@@ -28,11 +28,11 @@ http://localhost:3000
         $ docker-compose up
 
 1. Rebuild the application:
-  - If you make changes to the Gemfile or the Compose file:
+   - If you make changes to the Gemfile or the Compose file:
 
         $ docker-compose up --build
 
-  -  full rebuild requires a re-run of `docker-compose run web bundle install`
-  to sync changes in the `Gemfile.lock` to the host, followed by `docker-compose up --build`.
+   -  full rebuild requires a re-run of `docker-compose run web bundle install`
+   to sync changes in the `Gemfile.lock` to the host, followed by `docker-compose up --build`.
 
 ## How to run the test suite
