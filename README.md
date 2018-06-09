@@ -43,15 +43,14 @@ $ docker-compose up
 
 ## How to run the test suite
 
-1. Item 1
-```
-$ docker-compose up
-```
+## Nice Example
 
-1. Item 2
+These are a few pre-requisites to install:
 
-1. Item 3
+1. Download and install [Virtualbox 4.2+](https://www.virtualbox.org/wiki/Downloads) and [Vagrant 1.2+](http://downloads.vagrantup.com/)
+2. Install the vagrant plugins we depend on:
 
-   1. Item 3a
+        vagrant plugin install vagrant-berkshelf
+        vagrant plugin install vagrant-cachier
 
-   1. Item 3b
+3. Other stuff
