@@ -42,3 +42,16 @@ $ docker-compose up
   to sync changes in the `Gemfile.lock` to the host, followed by `docker-compose up --build`.
 
 ## How to run the test suite
+
+1. Item 1
+```
+$ docker-compose up
+```
+
+1. Item 2
+
+1. Item 3
+
+   1. Item 3a
+
+   1. Item 3b
